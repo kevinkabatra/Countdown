@@ -18,17 +18,6 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- task: PowerShell@2
-  inputs:
-    targetType: 'inline'
-    script: |
-      # Write your PowerShell commands here.
-      Write-Host "Hello World"
-      dir
-
-      cd .\Kabatra.Countdown.Numbers
-      dir
-
 - task: NuGetToolInstaller@1
 
 - task: NuGetCommand@2
@@ -41,6 +30,6 @@ steps:
     projects: |
       ./Kabatra.Countdown.Numbers/Kabatra.Countdown.Numbers.sln
 
-#- task: DotNetCoreCLI@2
-#  inputs:
-#    command: 'test'
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'test'
