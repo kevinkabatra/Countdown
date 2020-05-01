@@ -1,25 +1,52 @@
 ﻿namespace Kabatra.Countdown.Numbers.SolutionGenerator
 {
+    /// <summary>
+    ///     Handles all two digit arithmatic operations.
+    /// </summary>
     public class TwoDigitOperations
     {
-        public static int Add(int numberOne, int numberTwo)
+        /// <summary>
+        ///     Finds the sum of two given numbers.
+        /// </summary>
+        /// <param name="addendOne"></param>
+        /// <param name="addendTwo"></param>
+        /// <returns></returns>
+        public static int Add(int addendOne, int addendTwo)
         {
-            return numberOne + numberTwo;
+            return addendOne + addendTwo;
         }
 
-        public static int Subtract(int numberOne, int numberTwo)
+        /// <summary>
+        ///     Finds the difference of two given numbers.
+        /// </summary>
+        /// <param name="minuend"></param>
+        /// <param name="subtrahend"></param>
+        /// <returns></returns>
+        public static int Subtract(int minuend, int subtrahend)
         {
-            return numberOne - numberTwo;
+            return minuend - subtrahend;
         }
 
-        public static int Multiply(int numberOne, int numberTwo)
+        /// <summary>
+        ///     Finds the product of two given numbers.
+        /// </summary>
+        /// <param name="multiplicand"></param>
+        /// <param name="multiplier"></param>
+        /// <returns></returns>
+        public static int Multiply(int multiplicand, int multiplier)
         {
-            return numberOne * numberTwo;
+            return multiplicand * multiplier;
         }
 
-        public static int Divide(int numberOne, int numberTwo)
+        /// <summary>
+        ///     Finds the quotient of two given numbers. 
+        /// </summary>
+        /// <param name="divisor"></param>
+        /// <param name="dividend"></param>
+        /// <returns></returns>
+        public static int Divide(int divisor, int dividend)
         {
-            return numberOne / numberTwo;
+            return divisor / dividend;
         }
     }
 }
