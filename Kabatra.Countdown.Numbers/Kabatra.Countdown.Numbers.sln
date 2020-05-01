@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kabatra.Countdown.Numbers.Cecil", "Kabatra.Countdown.Numbers.Cecil\Kabatra.Countdown.Numbers.Cecil.csproj", "{3B26A9A7-004E-4D04-AC06-00E42696F7DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kabatra.Countdown.Numbers.SolutionGenerator", "Kabatra.Countdown.Numbers.SolutionGenerator\Kabatra.Countdown.Numbers.SolutionGenerator.csproj", "{EC703333-759E-414D-A487-3C8D80336C07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kabatra.Countdown.Numbers.SolutionGenerator.UnitTests", "Kabatra.Countdown.Numbers.SolutionGenerator.UnitTests\Kabatra.Countdown.Numbers.SolutionGenerator.UnitTests.csproj", "{C220DA0C-16BB-456A-BB33-3DBD826BACC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B26A9A7-004E-4D04-AC06-00E42696F7DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B26A9A7-004E-4D04-AC06-00E42696F7DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B26A9A7-004E-4D04-AC06-00E42696F7DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B26A9A7-004E-4D04-AC06-00E42696F7DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC703333-759E-414D-A487-3C8D80336C07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC703333-759E-414D-A487-3C8D80336C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC703333-759E-414D-A487-3C8D80336C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC703333-759E-414D-A487-3C8D80336C07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C220DA0C-16BB-456A-BB33-3DBD826BACC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C220DA0C-16BB-456A-BB33-3DBD826BACC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C220DA0C-16BB-456A-BB33-3DBD826BACC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C220DA0C-16BB-456A-BB33-3DBD826BACC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8D47571-6154-4713-BA09-71FD34CFC677}
+	EndGlobalSection
+EndGlobal
