@@ -27,6 +27,8 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'build'
+    projects: |
+      src/Kabatra.Countdown.Numbers/Kabatra.Countdown.Numbers.sln
 
 - task: DotNetCoreCLI@2
   inputs:
