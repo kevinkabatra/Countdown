@@ -33,3 +33,5 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'test'
+    projects: |
+      ./Kabatra.Countdown.Numbers/Kabatra.Countdown.Numbers.sln
