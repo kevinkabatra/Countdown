@@ -1,9 +1,9 @@
 ﻿namespace Kabatra.Countdown.Numbers.SolutionGenerator
 {
     /// <summary>
-    ///     Handles all two digit arithmatic operations.
+    ///     Handles all two number arithmetic operations.
     /// </summary>
-    public class TwoDigitOperations
+    public class TwoIntegerOperations
     {
         /// <summary>
         ///     Finds the sum of two given numbers.
