@@ -6,7 +6,7 @@
     public partial class ThreeIntegerOperations
     {
         /// <summary>
-        ///     Finds the difference of two given numbers.
+        ///     Finds the difference of three given numbers.
         /// </summary>
         /// <param name="minuend"></param>
         /// <param name="subtrahendOne"></param>
@@ -18,7 +18,7 @@
         }
 
         /// <summary>
-        ///     Finds the difference of two given numbers, then adds by a given number.
+        ///     Finds the difference of two given numbers, then adds to the difference by a given number.
         /// </summary>
         /// <param name="minuend"></param>
         /// <param name="subtrahend"></param>
@@ -30,7 +30,7 @@
         }
 
         /// <summary>
-        ///     Finds the difference of two given numbers, then divides by a given number.
+        ///     Finds the difference of two given numbers, then divides the difference by a given number.
         /// </summary>
         /// <param name="minuend"></param>
         /// <param name="subtrahend"></param>
@@ -42,7 +42,7 @@
         }
 
         /// <summary>
-        ///     Finds the difference of two given numbers, then multiplies by a given number.
+        ///     Finds the difference of two given numbers, then multiplies the difference by a given number.
         /// </summary>
         /// <param name="minuend"></param>
         /// <param name="subtrahend"></param>

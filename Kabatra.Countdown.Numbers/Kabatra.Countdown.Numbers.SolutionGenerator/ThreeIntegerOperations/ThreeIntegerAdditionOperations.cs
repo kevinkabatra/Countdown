@@ -42,7 +42,7 @@
         }
 
         /// <summary>
-        ///     Finds the sum of two given numbers, then subtracts the sum by a given number.
+        ///     Finds the sum of two given numbers, then subtracts from the sum by a given number.
         /// </summary>
         /// <param name="addendOne"></param>
         /// <param name="addendTwo"></param>
