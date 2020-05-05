@@ -1,7 +1,7 @@
 ﻿namespace Kabatra.Countdown.Numbers.SolutionGenerator.UnitTests.ThreeIntegerAdditionOperations
 {
-    using Xunit;
     using ThreeIntegerOperations = ThreeIntegerOperations.ThreeIntegerOperations;
+    using Xunit;
 
     public class ThreeIntegerMultiplicationOperationsUnitTests
     {
