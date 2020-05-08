@@ -1,4 +1,4 @@
-﻿namespace Kabatra.Countdown.Numbers.SolutionGenerator
+﻿namespace Kabatra.Countdown.Numbers.SolutionGenerator.Operations
 {
     /// <summary>
     ///     Handles all two number arithmetic operations.

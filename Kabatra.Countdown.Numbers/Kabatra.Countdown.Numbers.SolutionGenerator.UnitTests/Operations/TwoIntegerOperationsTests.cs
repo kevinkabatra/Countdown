@@ -1,5 +1,6 @@
-namespace Kabatra.Countdown.Numbers.SolutionGenerator.UnitTests
+namespace Kabatra.Countdown.Numbers.SolutionGenerator.UnitTests.Operations
 {
+    using Numbers.SolutionGenerator.Operations;
     using Xunit;
 
     public class TwoIntegerOperationsTests

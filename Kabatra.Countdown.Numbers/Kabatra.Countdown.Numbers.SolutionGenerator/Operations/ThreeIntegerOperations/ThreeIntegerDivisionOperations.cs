@@ -1,4 +1,4 @@
-﻿namespace Kabatra.Countdown.Numbers.SolutionGenerator.ThreeIntegerOperations
+﻿namespace Kabatra.Countdown.Numbers.SolutionGenerator.Operations.ThreeIntegerOperations
 {
     /// <summary>
     ///     Handles all three number division-based arithmetic operations.
