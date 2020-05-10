@@ -35,3 +35,4 @@ steps:
     command: 'test'
     projects: |
       ./Kabatra.Countdown.Numbers/Kabatra.Countdown.Numbers.sln
+    arguments: '--collect "Code coverage"'
