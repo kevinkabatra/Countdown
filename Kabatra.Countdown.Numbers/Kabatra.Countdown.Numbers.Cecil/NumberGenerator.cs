@@ -1,11 +1,11 @@
 ﻿namespace Kabatra.Countdown.Numbers.Cecil
 {
     /// <summary>
-    ///     CECIL is a random number generator used to set three-digit target numbers for
+    ///     CECIL, Countdowns Electronic Calculator in Leeds, is a random number generator used to set three-digit target numbers for
     ///     number rounds on Countdown.
     /// </summary>
     /// <seealso cref="http://wiki.apterous.org/CECIL"/>
-    public class CountdownsElectronicCalculatorInLeeds
+    public class NumberGenerator
     {
         /// <summary>
         ///     Generates a random number and returns it.

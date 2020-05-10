@@ -1,4 +1,4 @@
-﻿namespace Kabatra.Countdown.Numbers.SolutionGenerator
+﻿namespace Kabatra.Countdown.Numbers.SolutionGenerator.Operations
 {
     /// <summary>
     ///     Handles all two number arithmetic operations.
@@ -44,9 +44,9 @@
         /// <param name="divisor"></param>
         /// <param name="dividend"></param>
         /// <returns></returns>
-        public static int Divide(int divisor, int dividend)
+        public static decimal Divide(int divisor, int dividend)
         {
-            return divisor / dividend;
+            return decimal.Divide(divisor, dividend);
         }
     }
 }

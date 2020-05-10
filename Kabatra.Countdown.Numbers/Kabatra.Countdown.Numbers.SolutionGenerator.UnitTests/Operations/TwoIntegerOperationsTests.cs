@@ -1,5 +1,6 @@
-namespace Kabatra.Countdown.Numbers.SolutionGenerator.UnitTests
+namespace Kabatra.Countdown.Numbers.SolutionGenerator.UnitTests.Operations
 {
+    using Numbers.SolutionGenerator.Operations;
     using Xunit;
 
     public class TwoIntegerOperationsTests
@@ -46,6 +47,18 @@ namespace Kabatra.Countdown.Numbers.SolutionGenerator.UnitTests
             const int divisor = 6;
             const int dividend = 2;
             const int expectedQuotient = 3;
+
+            var actualQuotient = TwoIntegerOperations.Divide(divisor, dividend);
+
+            Assert.Equal(expectedQuotient, actualQuotient);
+        }
+
+        [Fact]
+        public void CanDivideAndGenerateDecimal()
+        {
+            const int divisor = 1;
+            const int dividend = 2;
+            const decimal expectedQuotient = 0.5m;
 
             var actualQuotient = TwoIntegerOperations.Divide(divisor, dividend);
 
