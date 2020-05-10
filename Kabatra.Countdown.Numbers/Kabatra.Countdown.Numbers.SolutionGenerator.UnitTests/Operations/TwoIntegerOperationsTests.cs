@@ -52,5 +52,17 @@ namespace Kabatra.Countdown.Numbers.SolutionGenerator.UnitTests.Operations
 
             Assert.Equal(expectedQuotient, actualQuotient);
         }
+
+        [Fact]
+        public void CanDivideAndGenerateDecimal()
+        {
+            const int divisor = 1;
+            const int dividend = 2;
+            const decimal expectedQuotient = 0.5m;
+
+            var actualQuotient = TwoIntegerOperations.Divide(divisor, dividend);
+
+            Assert.Equal(expectedQuotient, actualQuotient);
+        }
     }
 }
